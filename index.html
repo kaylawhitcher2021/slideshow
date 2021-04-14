@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<!-- viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- tab title -->
+	<title>Oh, the anicent wonders of the world </title>
+	<link rel="shortcut icon" href="images/Globe.jpg">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="styles/normalize.css">
+
+	<!-- shiv -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+	<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+
+<!----------- my style sheet ------------------>
+<link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+	<header>
+		<img src="images/4.jpeg">
+		<h1>Anicent Wonders of the World!</h1>
+	</header>
+
+
+
+	<div id="wrapper">
+
+		<div class="slider-wrapper theme-bar">
+
+			<div id="slider" class="nivoSlider">
+				<img src="images/1.jpg" data-thumb="images/1.jpg" alt="" title="Also called the Giza Necropolls, is located on the edges of the Western Desert. It was built in the Fourth Dynasty and includes several cemeteries and remains of a workers village.">
+
+				<img src="images/2.jpg" data-thumb="images/2.jpg" alt="" title="Hanging Gardens of Babylon, where a tiered system of gardens that contained trees, shrubs, vines. No solid evidence that it was actaully in the location of Babylon.">
+
+				<img src="images/3.jpg" data-thumb="images/3.jpg" alt="" title="The Statue of Zeus at Olympia is seated figure that is 42 feet tall. The statue was lost and destroyed during the 5th century AD.">
+
+				<img src="images/5.webp" data-thumb="images/5.webp" alt="" title="The Lighthouse of Alexandria was located on a small island called Pharos near the city of Alexandria. The structure of the lighthuse has three levels, the base buitl as a square, the middle which was octagonal and a cylindrical top.">
+
+				<img src="images/6.png" data-thumb="images/6.png" alt="" title="Colossus of Rhodes, was a bronze sculpture of the sun god Helioes stood for sixty years before an earthquake destroyed it.">
+
+				<img src="images/7.webp" data-thumb="images/7.webp" alt="" title="Located in southeastern Tukery the Mausloeum at Halicarnassus, tomb for  Mausolus king of Carnia in Asia Minor.">
+
+				<img src="images/8.jpg" data-thumb="images/8.jpeg" alt="" title="Temple of Artemis also known as the Temple of Diana. By 401 AD the temple had been ruined or destroyed. Only fragments of the last temple remaine.">
+			</div>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider();
+
+		});
+	</script>
+
+
+</section>
+
+<script>
+	window.onload = function() {
+		var d = new Date();
+		var n = d.getFullYear();
+		document.getElementById("copyright").innerHTML = n;
+
+	}
+</script>
+
+<footer><p>&copy; Copyright <span id="copyright"></span> &#8226; Kayla whitcher Productions</p></footer>
+
+</main>
+
+</body>
+
+</html>
